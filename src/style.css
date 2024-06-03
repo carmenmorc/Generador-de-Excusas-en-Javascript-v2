@@ -1,1 +1,42 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    font-family: "EB Garamond", serif;
+    font-size: 17pt;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-image: url('https://img.goodfon.com/original/2048x1280/e/b6/priroda-les-derevia-cherno-beloe-monokhrom.jpg');
+    background-size: cover; 
+}
+
+.container {
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 30%;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.title {
+    font-weight: 400;
+    font-style: italic;
+    margin: 15px;
+}
+
+#excuse {
+    font-weight: 700;
+    font-style: italic;
+    margin: 15px;
+}
+
+button {
+    width: 20%;
+    border-width: 0;
+    border-radius: 25px;
+    background-color:rgba(0, 0, 0, 0.281);
+    color: white;
+    padding: 1%;
+    font-size: 17pt;
+    cursor: pointer;
+}

@@ -16,8 +16,7 @@ window.onload = function() {
   let randomwhat = what[Math.floor(Math.random() * what.length)];
   let randomwhen = when[Math.floor(Math.random() * when.length)];
 
-  let excuse =
-    randomwho + " " + randomaction + " " + randomwhat + " " + randomwhen + ".";
+  let excuse = `${randomwho} ${randomaction} ${randomwhat} ${randomwhen}.`;
 
   document.getElementById("excuse").innerHTML = excuse;
 };
